@@ -30,6 +30,10 @@
             android:name="com.smartbrands.demo.ActualizarTablasMaestras"
             android:label="@string/title_activity_actualizar_tablas_maestras" >
         </activity>
+        <activity
+            android:name="com.smartbrands.demo.ConsultaDetalllada"
+            android:label="@string/title_activity_consulta_detalllada" >
+        </activity>
     </application>
 
 </manifest>
