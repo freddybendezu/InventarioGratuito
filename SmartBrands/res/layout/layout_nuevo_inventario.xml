@@ -120,7 +120,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/chkCantidad"
         android:layout_below="@+id/chkCantidad"
-        android:text="Prueba"
+        android:text="Prueba2"
         android:textSize="11sp" />
 
     <EditText
