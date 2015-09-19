@@ -9,7 +9,7 @@
     tools:context=".ActualizarTablasMaestras" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/lblAlmacen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -21,11 +21,11 @@
         android:id="@+id/cboAlmacenActualizar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/textView1" />
+        android:layout_alignLeft="@+id/lblAlmacen"
+        android:layout_below="@+id/lblAlmacen" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/lblUbicacionConsulta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/cboAlmacenActualizar"
@@ -37,8 +37,8 @@
         android:id="@+id/cboProductoActualizar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_below="@+id/textView2" />
+        android:layout_alignLeft="@+id/lblUbicacionConsulta"
+        android:layout_below="@+id/lblUbicacionConsulta" />
 
     <Button
         android:id="@+id/btnActualizarProductos"

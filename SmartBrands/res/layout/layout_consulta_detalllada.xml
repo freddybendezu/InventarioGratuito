@@ -9,8 +9,62 @@
     tools:context=".ConsultaDetalllada" >
 
     <TextView
+        android:id="@+id/lblAlmacen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/lblAlmacen" />
+
+    <Spinner
+        android:id="@+id/cboAlmacenConsulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblAlmacen"
+        android:layout_below="@+id/lblAlmacen" />
+
+    <TextView
+        android:id="@+id/lblUbicacionConsulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cboAlmacenConsulta"
+        android:layout_below="@+id/cboAlmacenConsulta"
+        android:layout_marginTop="14dp"
+        android:text="@string/lblUbicacion" />
+
+    <Spinner
+        android:id="@+id/cboUbicacionConsulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblUbicacionConsulta"
+        android:layout_below="@+id/lblUbicacionConsulta" />
+
+    <TextView
+        android:id="@+id/lblProductoConsulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/lblUbicacionConsulta"
+        android:layout_below="@+id/cboUbicacionConsulta"
+        android:text="@string/lblProducto" />
+
+    <EditText
+        android:id="@+id/txtProductoConsulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblProductoConsulta"
+        android:layout_below="@+id/lblProductoConsulta"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtProductoConsulta"
+        android:layout_below="@+id/txtProductoConsulta"
+        android:layout_marginTop="75dp" >
+    </TableRow>
 
 </RelativeLayout>
