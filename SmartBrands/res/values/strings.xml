@@ -16,5 +16,6 @@
     <string name="lblCantidad">Cantidad</string>
     <string name="btnAgregarCantidad">Agregar</string>
     <string name="btnReemplazar">Reemplazar</string>
+    <string name="title_activity_actualizar_tablas_maestras">ActualizarTablasMaestras</string>
 
 </resources>
