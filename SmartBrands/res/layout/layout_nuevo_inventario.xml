@@ -151,7 +151,7 @@
         android:textSize="8sp" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnActualizarProductos"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
@@ -165,16 +165,16 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_alignTop="@+id/button1"
-        android:layout_toRightOf="@+id/button1"
+        android:layout_alignTop="@+id/btnActualizarProductos"
+        android:layout_toRightOf="@+id/btnActualizarProductos"
         android:text="Button" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_below="@+id/button1"
+        android:layout_alignLeft="@+id/btnActualizarProductos"
+        android:layout_below="@+id/btnActualizarProductos"
         android:text="TextView"
         android:textSize="11sp" />
 
@@ -183,7 +183,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/editText4"
-        android:layout_toRightOf="@+id/button1"
+        android:layout_toRightOf="@+id/btnActualizarProductos"
         android:ems="10"
         android:textSize="8sp" />
 

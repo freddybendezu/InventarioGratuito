@@ -9,8 +9,44 @@
     tools:context=".ActualizarTablasMaestras" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/lblAlmacen" />
+
+    <Spinner
+        android:id="@+id/cboAlmacenActualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cboAlmacenActualizar"
+        android:layout_below="@+id/cboAlmacenActualizar"
+        android:layout_marginTop="14dp"
+        android:text="@string/lblProducto" />
+
+    <Spinner
+        android:id="@+id/cboProductoActualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btnActualizarProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cboProductoActualizar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/btnActualizarProductos" />
 
 </RelativeLayout>
